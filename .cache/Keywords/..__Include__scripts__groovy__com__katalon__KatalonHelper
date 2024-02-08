@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "BB280FD33D770BF4EA1A89194E8AFF0E",
+  "keywordClasses": [
+    {
+      "name": "com.katalon.IgnoreUnknownProperties",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.Project",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.Team",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.Organization",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.KatalonHelper",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.katalon.IgnoreUnknownProperties$Trait$Helper",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
