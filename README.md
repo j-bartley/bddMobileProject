@@ -10,7 +10,7 @@ https://github.com/j-bartley/bddMobileProject
 
 The first problem-solving topic resolved by this project is for the BDD migration. This project contains two important Test Listeners that ensure default Cucumber packages, and custom packages, are included for use within the project. For example, in the sample code from the project below we can see that beforeTestCase2 contains a list of packages including one called “practice”. This package was added manually, and shows that if you have your own custom packages, they can be added here for usage:
 
-'''
+```
 import com.katalon.KatalonHelper
 import com.kms.katalon.core.annotation.BeforeTestCase
 import com.kms.katalon.core.annotation.BeforeTestSuite
@@ -32,7 +32,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-class TestListener {
+>class TestListener {
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
@@ -56,7 +56,7 @@ class TestListener {
 		CucumberKW.GLUE = ['common', 'operations', 'practice']
 	}
 }
-'''
+```
 
 ## 3. Mobile Implementation
 
@@ -68,13 +68,13 @@ The iOS implementation launches the built-in Calendar application either on a si
 
 BDD
 
-featureFileIOS.tc
+- featureFileIOS.tc
 
-MobileIOS.feature
+- MobileIOS.feature
 
 Standard
 
-mobileTestIOS.tc
+- mobileTestIOS.tc
 
 ### 3.2. Android Implementation
 
@@ -82,10 +82,10 @@ The Android implementation launches the built-in Google Chrome application eithe
 
 BDD
 
-featureFileAndroid.tc
+- featureFileAndroid.tc
 
-MobileAndroid.feature
+- MobileAndroid.feature
 
 Standard
 
-mobildTestAndroid.tc
+- mobileTestAndroid.tc
