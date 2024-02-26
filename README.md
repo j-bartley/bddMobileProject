@@ -32,7 +32,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
->class TestListener {
+class TestListener {
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
